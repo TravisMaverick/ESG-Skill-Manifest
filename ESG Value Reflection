@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.botframework.com/schemas/skills/v2.2/skill-manifest.json",
+  "name": "ESGuideValueReflection",
+  "version": "1.0",
+  "description": "Helps users connect personal values to ESG behaviour and performance.",
+  "publisherName": "Your Company Name",
+  "privacyUrl": "https://yourdomain.com/privacy",
+  "license": "https://yourdomain.com/license",
+  "endpointUrl": "https://your-esguide-bot.azurewebsites.net/api/messages",
+  "msAppId": "f687d942-f022-4270-9097-5d0dcdffeec2",
+  "activities": {
+    "esg.valueMatch": {
+      "description": "Matches values like Safety, Integrity, Environmental Care to job actions.",
+      "type": "message"
+    }
+  },
+  "manifestVersion": "2.2"
