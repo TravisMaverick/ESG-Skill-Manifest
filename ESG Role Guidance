@@ -1,0 +1,19 @@
+// Skill Manifest: ESG Role Guidance
+{
+  "$schema": "https://schemas.botframework.com/schemas/skills/v2.2/skill-manifest.json",
+  "name": "ESGuideRoleSupport",
+  "version": "1.0",
+  "description": "Helps users understand their role's impact on ESG.",
+  "publisherName": "Your Company Name",
+  "privacyUrl": "https://yourdomain.com/privacy",
+  "license": "https://yourdomain.com/license",
+  "endpointUrl": "https://your-esguide-bot.azurewebsites.net/api/messages",
+  "msAppId": "YOUR-APP-ID-HERE",
+  "activities": {
+    "esg.roleInsight": {
+      "description": "Provides ESG insight tailored to user roles like operator, mechanic, planner.",
+      "type": "message"
+    }
+  },
+  "manifestVersion": "2.2"
+}
