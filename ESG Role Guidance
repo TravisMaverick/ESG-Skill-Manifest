@@ -6,7 +6,7 @@
   "publisherName": "Your Company Name",
   "privacyUrl": "https://github.com/TravisMaverick/ESG-Skill-Manifest.git/privacy",
   "license": "https://github.com/TravisMaverick/ESG-Skill-Manifest.git/license",
-  "endpointUrl": "https://your-esguide-bot.azurewebsites.net/api/messages",
+  "endpointUrl": "https://github.com/TravisMaverick/ESG-Skill-Manifest.git",
   "msAppId": "f687d942-f022-4270-9097-5d0dcdffeec2",
   "activities": {
     "esg.roleInsight": {
